@@ -3,6 +3,8 @@ import random
 my_move = input('what move do you want to make?')
 choices = {'1': 'rock', '2': 'paper', '3': 'scissors'}
 my_action= choices[my_move]
+#print len(choices.keys()) to get the number of keys in this dictionary or choices.keys() to get what keys are there
+
 
 #my_action = ['rock', 'paper', 'scissors']
 #making the computer choose
