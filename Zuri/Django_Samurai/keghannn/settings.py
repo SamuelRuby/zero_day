@@ -38,7 +38,7 @@ DEFAULT_DJANGO_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-CUSTOM_APPS = ['blog']
+CUSTOM_APPS = ['blog', 'links', 'rest_framework']
 INSTALLED_APPS = DEFAULT_DJANGO_APPS + CUSTOM_APPS
 
 MIDDLEWARE = [
